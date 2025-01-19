@@ -6,5 +6,6 @@ perc= tip/100
 total_perc = bill *perc
 total= total_perc+bill 
 per_person= total/people
-print (round (per_person,3))
+final_amount = round(per_person,3) 
+print (f"Each person should pay: $ {final_amount}") 
 
